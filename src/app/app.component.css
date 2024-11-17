@@ -1,0 +1,80 @@
+  /* Reset default styling */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Purple theme background and text colors */
+body {
+    background-color: #EADCF8;
+    /* Light purple background */
+    color: #3D1766;
+    /* Dark purple text */
+}
+
+/* Header styling */
+header {
+    background-color: #5E239D;
+    /* Rich purple */
+    color: #FFFFFF;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+header h1 {
+    font-size: 1.8em;
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #7C4DD4;
+    /* Hover with lighter purple */
+}
+
+/* Marquee section styling */
+marquee {
+    background-color: #C8A2E0;
+    /* Softer purple */
+    color: #3D1766;
+    /* Dark purple text */
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #5E239D;
+    /* Matches header */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer p {
+    margin: 0;
+}
